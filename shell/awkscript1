@@ -1,0 +1,16 @@
+{
+	if($2 > 89 && $2 < 101)
+		print $1, "的学分是:Grade A"
+	else if($2 > 79)
+		print $1, "的学分是:Grade B"
+	else if($2 > 69)
+		print $1, "的学分是:Grade C"
+	else if($2 > 59)
+		print $1, "的学分是:Grade D"
+	else
+		
+		print $1, "的学分是:Grade F"
+
+}
+
+

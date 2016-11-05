@@ -1,0 +1,16 @@
+{
+	nf = NF
+	for(x = 1; x <= NF; x++)
+	{
+		matrix[NR, x] = $x
+	}
+}	
+
+END{
+	for(y = 1; y <= NR; y++)
+	{
+		for(x = 1; x <= nf; x++)
+			printf "%d ", matrix[y, x]
+			printf "\n"
+	}
+}
