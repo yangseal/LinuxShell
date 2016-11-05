@@ -1,6 +1,4 @@
 #!/bin/bash
-# author:菜鸟教程
-# url:www.runoob.com
 
 funWithReturn(){
     echo "这个函数会对输入的两个数字进行相加运算..."
